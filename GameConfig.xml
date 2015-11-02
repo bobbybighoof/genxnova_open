@@ -1,0 +1,116 @@
+<GameConfig>
+
+	<StartingGear>
+		<Credits>5000000</Credits>
+		
+		<Block>
+			<Id>5</Id> <!-- hull -->
+			<Count>300</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+                <Block>
+			<Id>263</Id> <!-- advanced hull -->
+			<Count>600</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+		<Block>
+			<Id>2</Id> <!-- power -->
+			<Count>100</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+                <Block>
+			<Id>331</Id> <!-- power -->
+			<Count>100</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+                <Block>
+			<Id>3</Id> <!-- sheld -->
+			<Count>100</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+		<Block>
+			<Id>8</Id>  <!-- thruster -->
+			<Count>50</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+		<Block>
+			<Id>6</Id>  <!-- cannon computer -->
+			<Count>1</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+		<Block>
+			<Id>16</Id>  <!-- cannon barrels -->
+			<Count>25</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+		
+		<Block>
+			<Id>1</Id>  <!-- core -->
+			<Count>1</Count>
+			<Slot>inventory</Slot>
+		</Block>
+		<Block>
+			<Id>4</Id>  <!-- salvage computer -->
+			<Count>1</Count>
+			<Slot>inventory</Slot>
+		</Block>
+		<Block>
+			<Id>24</Id> <!-- salvage modules -->
+			<Count>25</Count>
+			<Slot>inventory</Slot>
+		</Block>
+                <Block>
+			<Id>120</Id> <!-- plex storage -->
+			<Count>2</Count>
+			<Slot>inventory</Slot>
+		</Block>
+                <Block>
+			<Id>291</Id> <!-- faction block -->
+			<Count>1</Count>
+			<Slot>inventory</Slot>
+		</Block>
+		
+		<Tool>
+			<SubId>1</SubId> <!-- laser -->
+			<Slot>inventory</Slot>
+		</Tool>
+		<Tool>
+			<SubId>2</SubId> <!-- heal -->
+			<Slot>inventory</Slot>
+		</Tool>
+		<Tool>
+			<SubId>3</SubId> <!-- power supply -->
+			<Slot>inventory</Slot>
+		</Tool>
+		<Tool>
+			<SubId>4</SubId> <!-- marker -->
+			<Slot>inventory</Slot>
+		</Tool>
+		
+		<Helmet>
+			<Slot>inventory</Slot>
+		</Helmet>
+		
+		<Logbook>
+			<Message>Personal Logbook</Message>
+			<Slot>inventory</Slot>
+		</Logbook>
+		
+		<!-- uncomment and edit the following to give the player a blueprint at the start -->
+		<Blueprint>
+			<Name>Consortium StandardCargo MK2</Name>
+			<Filled>true</Filled>
+			<Slot>inventory</Slot>
+		</Blueprint>
+		
+	</StartingGear>
+
+	<!-- uncomment and edit the following to have a ruleset on ship sizes 
+	(existing ships over that size become unusable) If you only need one limitation, remove the one you don't need -->
+	 
+	<!--<ShipLimits>
+		<Mass>1000.0</Mass>
+		<Blocks>500000</Blocks> 
+	</ShipLimits> -->	
+
+</GameConfig>

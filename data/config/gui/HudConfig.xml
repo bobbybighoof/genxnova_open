@@ -1,0 +1,324 @@
+
+
+<Hud>
+	<PlayerHealthBar>
+		<BasicValues>
+			<Color>72,151,40,255</Color>
+			<Offset>1, 44</Offset>
+			<FlipX>false</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>false</FillStatusTextOnTop>
+		</BasicValues>
+	</PlayerHealthBar>
+	<IndicatorIndices>
+		<BasicValues>
+			<Other>0</Other>
+			<Asteroid>1</Asteroid>
+			<Planet>2</Planet>
+			<Ship>3</Ship>
+			<Lifeform>4</Lifeform>
+			<Station>5</Station>
+			<Shop>6</Shop>
+		</BasicValues>
+	</IndicatorIndices>
+	
+	<BottomBarBuild>
+		<BasicValues>
+			<Color>255,255,255,255</Color>
+			<Position>ORIENTATION_HORIZONTAL_MIDDLE | ORIENTATION_BOTTOM</Position>
+			<Offset>0,0</Offset>
+			<StartPosIconsX>165</StartPosIconsX>
+			<StartPosIconsY>57</StartPosIconsY>
+			<IconSpacing>70</IconSpacing>
+		</BasicValues>
+	</BottomBarBuild>
+
+	<BottomBarWeapon>
+		<BasicValues>
+			<Color>255,255,255,255</Color>
+			<Position>ORIENTATION_HORIZONTAL_MIDDLE | ORIENTATION_BOTTOM</Position>
+			<Offset>0,0</Offset>
+			<StartPosIconsX>165</StartPosIconsX>
+			<StartPosIconsY>57</StartPosIconsY>
+			<IconSpacing>70</IconSpacing>
+		</BasicValues>
+	</BottomBarWeapon>
+
+
+	<TopBar>
+		<BasicValues>
+			<Color>255,255,255,255</Color>
+			<Position>ORIENTATION_HORIZONTAL_MIDDLE | ORIENTATION_TOP</Position>
+			<Offset>200,0</Offset>
+			<ShopX>400</ShopX>
+			<MailX>434</MailX>
+			<TradeX>468</TradeX>
+			
+		</BasicValues>
+	</TopBar>
+
+	<HealthBar>
+		<BasicValues>
+			<Color>127,127,127,0</Color>
+			<Position>ORIENTATION_VERTICAL_MIDDLE | ORIENTATION_RIGHT</Position>
+			<Offset>-100,0</Offset>
+			<OffsetText>0, 0</OffsetText>
+			<FlipX>false</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>false</FillStatusTextOnTop>
+		</BasicValues>
+	</HealthBar>
+
+	<ShieldBar>
+		<BasicValues>
+			<Color>215,178,24,255</Color>
+			<Position>ORIENTATION_VERTICAL_MIDDLE | ORIENTATION_LEFT</Position>
+			<Offset>100, 0</Offset>
+			<OffsetText>0, 0</OffsetText>
+			<FlipX>true</FlipX>
+			<FlipY>flase</FlipY>
+			<FillStatusTextOnTop>true</FillStatusTextOnTop>
+		</BasicValues>
+		
+	</ShieldBar>
+
+	<PowerBar>
+		<BasicValues>
+			<Color>33,148,206,255</Color>
+			<Position>ORIENTATION_VERTICAL_MIDDLE | ORIENTATION_RIGHT</Position>
+			<Offset>-115,0</Offset>
+			<OffsetText>0, 0</OffsetText>
+			<FlipX>false</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>true</FillStatusTextOnTop>
+		</BasicValues>
+	</PowerBar>
+	
+	<ShipHPBar>
+		<BasicValues>
+			<Color>100, 163, 56, 255</Color>
+			<Position>ORIENTATION_VERTICAL_MIDDLE | ORIENTATION_LEFT</Position>
+			<Offset>124, 0</Offset>
+			<OffsetText>8, 18</OffsetText>
+			<FlipX>true</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>false</FillStatusTextOnTop>
+		</BasicValues>
+	</ShipHPBar>
+	<ShipArmorHPBar>
+		<BasicValues>
+			<Color>118, 140, 156, 255</Color>
+			<Position>ORIENTATION_VERTICAL_MIDDLE | ORIENTATION_LEFT</Position>
+			<Offset>115, 0</Offset>
+			<OffsetText>8, 0</OffsetText>
+			<FlipX>true</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>false</FillStatusTextOnTop>
+		</BasicValues>
+	</ShipArmorHPBar>
+	<SpeedBar>
+		<BasicValues>
+			<Color>26, 191, 144, 255</Color>
+			<Position>ORIENTATION_VERTICAL_MIDDLE | ORIENTATION_RIGHT</Position>
+			<Offset>-100, 0</Offset>
+			<OffsetText>0, 0</OffsetText>
+			<FlipX>false</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>false</FillStatusTextOnTop>
+		</BasicValues>
+	</SpeedBar>
+	<TargetPowerBar>
+		<BasicValues>
+			<Color>33, 148, 206,255</Color>
+			<Offset>3, 29</Offset>
+			<FlipX>false</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>false</FillStatusTextOnTop>
+		</BasicValues>
+	</TargetPowerBar>
+	<TargetShieldBar>
+		<BasicValues>
+			<Color>206, 165, 33, 255</Color>
+			<Offset>3,47</Offset>
+			<FlipX>false</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>false</FillStatusTextOnTop>
+		</BasicValues>
+	</TargetShieldBar>
+	
+	<TargetStructureHPBar>
+		<BasicValues>
+			<Color>72, 151, 40, 255</Color>
+			<Offset>3, 65</Offset>
+			<FlipX>false</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>false</FillStatusTextOnTop>
+		</BasicValues>
+	</TargetStructureHPBar>
+	<TargetArmorHPBar>
+		<BasicValues>
+			<Color>92, 91, 90, 255</Color>
+			<Offset>3, 83</Offset>
+			<FlipX>false</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>false</FillStatusTextOnTop>
+		</BasicValues>
+	</TargetArmorHPBar>
+	
+	
+	
+	<TargetPlayerHealthBar>
+		<BasicValues>
+			<Color>72,151,40,255</Color>
+			<Offset>3, 43</Offset>
+			<FlipX>false</FlipX>
+			<FlipY>false</FlipY>
+			<FillStatusTextOnTop>false</FillStatusTextOnTop>
+		</BasicValues>
+	</TargetPlayerHealthBar>
+	
+	
+	
+	
+	
+	<TargetPanel>
+		<BasicValues>
+			<Position>ORIENTATION_TOP | ORIENTATION_LEFT</Position>
+			<Offset>1,-8</Offset>
+		</BasicValues>
+	</TargetPanel>
+	
+	
+	<PositiveEffectBar>
+		<BasicValues>
+			<BlendOutInSec>0.2</BlendOutInSec>
+			<StayTime>0.5</StayTime>
+			<TextColor>129,220,58, 255</TextColor>
+			<Color>101,161,54, 255</Color>
+			<Position>ORIENTATION_HORIZONTAL_MIDDLE | ORIENTATION_VERTICAL_MIDDLE</Position>
+			<Offset>0, -220</Offset>
+			<Flipped>false</Flipped>
+		</BasicValues>
+	</PositiveEffectBar>
+	
+	<NegativeEffectBar>
+		<BasicValues>
+		<TextColor>246,104,0, 255</TextColor>
+			<BlendOutInSec>0.2</BlendOutInSec>
+			<StayTime>0.5</StayTime>
+			<Color>179,50,0, 255</Color>
+			<Position>ORIENTATION_HORIZONTAL_MIDDLE | ORIENTATION_VERTICAL_MIDDLE</Position>
+			<Offset>0, 220</Offset>
+			<Flipped>true</Flipped>
+		</BasicValues>
+	</NegativeEffectBar>
+	
+	<PopupMessage>
+		<BasicValues>
+			<PopoutTimeInSec>0.3</PopoutTimeInSec>
+			<DistFromTop>20</DistFromTop>
+			<DistFromRight>0</DistFromRight>
+			<StackedDistanceX>200</StackedDistanceX>
+			<AncorOnRadarAndAdvBuildMode>true</AncorOnRadarAndAdvBuildMode>
+		</BasicValues>
+	</PopupMessage>
+	<BuffDebuff>
+		<BasicValues>
+			<BlendOutInSec>0.5</BlendOutInSec>
+			<StayTime>1.0</StayTime>
+			<EMPIndex>EMP, 30, false, FX : EMP</EMPIndex>
+			<ExplosiveIndex>EXPLOSIVE, 29, false, FX : EXPLOSIVE</ExplosiveIndex>
+			<IonIndex>ION, 27, false, FX : ION</IonIndex>
+			<OverdriveIndex>OVERDRIVE, 28, false, FX : OVERDRIVE</OverdriveIndex>
+			<PiercingIndex>PIERCING, 25, false, FX : PIERCING</PiercingIndex>
+			<PunchthroughIndex>PUNCHTHROUGH, 26, false, FX : PUNCH DMG</PunchthroughIndex>
+			<RepairIndex>REPAIR, 19, true, REPAIRING</RepairIndex>
+			<ShieldSupplyIndex>SHIELD_SUPPLY, 17, true, SHIELD SUPPLIED</ShieldSupplyIndex>
+			<ShieldDrainIndex>SHIELD_DRAIN, 33, false, SHILED DRAINED</ShieldDrainIndex>
+			<PowerSupplyIndex>POWER_SUPPLY, 18, true, POWER SUPPLIED</PowerSupplyIndex>
+			<PowerDrainIndex>POWER_DRAIN, 34, false, POWER DRAINED</PowerDrainIndex>
+			
+			<NoThrust>NO_THRUST, 36, false, No Thrust</NoThrust>
+			<NoPower>NO_POWER, 37, false, Power Failure</NoPower>
+			<ShieldsDown>SHIELD_DOWN, 38, false, Shields Down</ShieldsDown>
+			
+			<Controlless>CONTROLLESS, 35, false, Controls not responding</Controlless>
+			<Push>PUSH, 32, false, FX : PUSHED</Push>
+			<Pull>PULL, 31, false, FX : PULLED</Pull>
+			<Stop>STOP, 24, false, FX : STOPPED</Stop>
+			<StatusArmorHarden>STATUS_ARMOR_HARDEN, 9, true, ARMOUR HARDENED</StatusArmorHarden>
+			<StatusPiercingProtection>STATUS_PIERCING_PROTECTION, 10, true, PIERCING PROTECTION</StatusPiercingProtection>
+			<StatusPowerShield>STATUS_POWER_SHIELD, 14, true, POWER DAMAGE REDUCTION</StatusPowerShield>
+			<StatusShieldHarden>STATUS_SHIELD_HARDEN, 11, true, SHIELD HARDENED</StatusShieldHarden>
+			<StatusTopSpeed>STATUS_TOP_SPEED, 12, true, OVERDRIVE</StatusTopSpeed>
+			<StatusAntiGravity>STATUS_ANTI_GRAVITY, 8, true, ANTI GRAVITY</StatusAntiGravity>
+			
+			<StatusArmorHpAbsorbtionBonus>STATUS_ARMOR_HP_ABSORBTION_BONUS, 8, true, AHP HARDEN</StatusArmorHpAbsorbtionBonus>
+			<StatusArmorHpDeductionBonus>STATUS_ARMOR_HP_DEDUCTION_BONUS, 8, true, AHP+</StatusArmorHpDeductionBonus>
+			
+			<StatusGravityEffectIgnorance>STATUS_GRAVITY_EFFECT_IGNORANCE, 13, true, TRACTOR PROTECTION</StatusGravityEffectIgnorance>
+			<TakeOff>TAKE_OFF, 16, true, TAKING OFF</TakeOff>
+			<Evade>EVADE, 15, true, EVADING</Evade>
+			
+			<ThrusterOutage>THRUSTER_OUTAGE, 15, false, THUSTER OUTAGE</ThrusterOutage>
+			<NoPowerRecharge>NO_POWER_RECHARGE, 15, false, POWER REGEN OUTAGE</NoPowerRecharge>
+			<NoShieldRecharge>NO_SHIELD_RECHARGE, 15, false, SHIELD REGEN OUTAGE</NoShieldRecharge>
+
+			<ThrusterOutageEff>THRUSTER_OUTAGE, 15, false, FAILING : THUSTER</ThrusterOutageEff>
+			<NoPowerRechargeEff>NO_POWER_RECHARGE, 15, false, FAILING : POWER REGEN</NoPowerRechargeEff>
+			<NoShieldRechargeEff>NO_SHIELD_RECHARGE, 15, false, FAILING : SHIELD REGEN</NoShieldRechargeEff>
+		
+			<Position>ORIENTATION_HORIZONTAL_MIDDLE | ORIENTATION_TOP</Position>
+			<Offset>0,0</Offset>
+		</BasicValues>
+	</BuffDebuff>
+	<ColorPalette>
+		<BasicValues>
+			<EnemyLifeform>255,62,33,255</EnemyLifeform>
+			<AllyLifeform>36,162,252,255</AllyLifeform>
+			<FactionLifeform>33,185,21,255</FactionLifeform>
+			<NeutralLifeform>0,82,209,255</NeutralLifeform>
+			
+			<EnemyOther>255,62,33,255</EnemyOther>
+			<AllyOther>36,162,252,255</AllyOther>
+			<FactionOther>33,185,21,255</FactionOther>
+			<NeutralOther>0,82,209,255</NeutralOther>
+			
+			<EnemyShip>255,62,33,255</EnemyShip>
+			<AllyShip>36,162,252,255</AllyShip>
+			<FactionShip>33,185,21,255</FactionShip>
+			<NeutralShip>0,82,209,255</NeutralShip>
+			
+			<EnemyStation>255,62,33,255</EnemyStation>
+			<AllyStation>36,162,252,255</AllyStation>
+			<FactionStation>33,185,21,255</FactionStation>
+			<NeutralStation>0,82,209,255</NeutralStation>
+			
+			<EnemyShop>255,62,33,255</EnemyShop>
+			<AllyShop>36,162,252,255</AllyShop>
+			<FactionShop>33,185,21,255</FactionShop>
+			<NeutralShop>0,82,209,255</NeutralShop>
+			
+			<EnemyTurret>110,27,14,255</EnemyTurret>
+			<AllyTurret>39,115,33,255</AllyTurret>
+			<FactionTurret>39,115,33,255</FactionTurret>
+			<NeutralTurret>0,68,172,255</NeutralTurret>
+			
+			<EnemyDock>110,27,14,255</EnemyDock>
+			<AllyDock>39,115,33,255</AllyDock>
+			<FactionDock>39,115,33,255</FactionDock>
+			<NeutralDock>0,68,172,255</NeutralDock>
+			
+			<SimpleNoteColor>51,223,255,255</SimpleNoteColor>
+			<InfoNoteColor>51,120,255,255</InfoNoteColor>
+			<ErrorNoteColor>245,0,0,255</ErrorNoteColor>
+			<GameNoteColor>80,163,42,255</GameNoteColor>
+			
+			<Buff>80,163,42,255</Buff>
+			<Debuff>192,39,0,255</Debuff>
+		</BasicValues>
+	</ColorPalette>
+
+</Hud>
+        
+        

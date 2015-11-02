@@ -1,0 +1,7 @@
+Running on thread: ClientThread
+Adapter: nvd3dumx,nvwgf2umx,nvwgf2umx,nvwgf2umx
+Driver Version: 10.18.13.5850
+Vendor: NVIDIA Corporation
+OpenGL Version: 4.5.0 NVIDIA 358.50
+Renderer: GeForce GT 520/PCIe/SSE2
+GLSL Ver: 4.50 NVIDIA

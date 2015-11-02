@@ -1,0 +1,66 @@
+$STRAFE_LEFT                                         -> Strafe Left; Context: GENERAL
+$STRAFE_RIGHT                                        -> Strafe right; Context: GENERAL
+$FORWARD                                             -> Forward; Context: GENERAL
+$BACKWARDS                                           -> Backwards; Context: GENERAL
+$UP                                                  -> Strafe Up; Context: GENERAL
+$DOWN                                                -> Strafe Down; Context: GENERAL
+$STRAFE_LEFT_SHIP                                    -> Strafe Left; Context: SHIP_FLIGHT_MODE
+$STRAFE_RIGHT_SHIP                                   -> Strafe right; Context: SHIP_FLIGHT_MODE
+$FORWARD_SHIP                                        -> Forward; Context: SHIP_FLIGHT_MODE
+$BACKWARDS_SHIP                                      -> Backwards; Context: SHIP_FLIGHT_MODE
+$UP_SHIP                                             -> Strafe Up; Context: SHIP_FLIGHT_MODE
+$DOWN_SHIP                                           -> Strafe Down; Context: SHIP_FLIGHT_MODE
+$ROTATE_LEFT_SHIP                                    -> Rotate Left; Context: SHIP_FLIGHT_MODE
+$ROTATE_RIGHT_SHIP                                   -> Rotate Right; Context: SHIP_FLIGHT_MODE
+$DROP_ITEM                                           -> Drop Item; Context: GENERAL
+$RECORD_GIF                                          -> Record GIF animation; Context: GENERAL
+$OBJECT_VIEW_CAM                                     -> Auto-rotation camera; Context: GENERAL
+$BREAK                                               -> Break; Context: SHIP_FLIGHT_MODE
+$ROLL                                                -> Roll Ship; Context: SHIP_FLIGHT_MODE
+$CHANGE_SHIP_MODE                                    -> Change Ship Mode; Context: SHIP_GENERAL
+$JUMP                                                -> Jump; Context: CHARACTER_IN_GRAVITY
+$GRAPPLING_HOOK                                      -> Grapple (Align to ship); Context: FREE_IN_SPACE
+$WALK                                                -> Walk; Context: FREE_IN_SPACE
+$JUMP_TO_MODULE                                      -> Jump to module; Context: SHIP_BUILD_MODE
+$FREE_CAM                                            -> Free Camera; Context: GENERAL
+$ENTER_SHIP                                          -> Exit Ship; Context: SHIP_GENERAL
+$ACTIVATE                                            -> Activate Module; Context: FREE_IN_SPACE
+$AI_CONTROL_KEY                                      -> AI control; Context: SHIP_GENERAL
+$STUCK_PROTECT                                       -> Activate Stuck Protect; Context: FREE_IN_SPACE
+$SIT                                                 -> Sit; Context: FREE_IN_SPACE
+$SPAWN_SHIP                                          -> Spawn Ship; Context: FREE_IN_SPACE
+$SPAWN_SPACE_STATION                                 -> Spawn Space Station; Context: FREE_IN_SPACE
+$SELECT_MODULE                                       -> Select Module; Context: SHIP_BUILD_MODE
+$CONNECT_MODULE                                      -> Connect Module; Context: SHIP_BUILD_MODE
+$HELP                                                -> Help Screen; Context: GENERAL
+$SWITCH_COCKPIT_SHIP_NEXT                            -> Next Docking Ship; Context: SHIP_FLIGHT_MODE
+$SWITCH_COCKPIT_SHIP_PREVIOUS                        -> Previous Docking Ship; Context: SHIP_FLIGHT_MODE
+$SWITCH_COCKPIT_NEXT                                 -> Next Cockpit; Context: SHIP_FLIGHT_MODE
+$SWITCH_COCKPIT_PREVIOUS                             -> Previous Cockpit; Context: SHIP_FLIGHT_MODE
+$TEAM_CHANGE                                         -> Change Team; Context: GENERAL
+$CHAT                                                -> Chat; Context: GENERAL
+$SHOP_PANEL                                          -> Shop Menu; Context: GENERAL
+$SHOP_FAST_SWITCH                                    -> Fast switch inventory; Context: GENERAL
+$INVENTORY_PANEL                                     -> Inventory Menu; Context: GENERAL
+$WEAPON_PANEL                                        -> Weapon Menu; Context: GENERAL
+$NAVIGATION_PANEL                                    -> Navigation Menu; Context: GENERAL
+$AI_CONFIG_PANEL                                     -> AI Config Menu; Context: GENERAL
+$SELECT_NEXT_ENTITY                                  -> Select Next Entity; Context: GENERAL
+$SELECT_PREV_ENTITY                                  -> Select Previous Entity; Context: GENERAL
+$SELECT_NEAR_ENTITY                                  -> Select Nearest Entity; Context: GENERAL
+$SELECT_LOOK_ENTITY                                  -> Select Targeted Entity; Context: GENERAL
+$RELEASE_MOUSE                                       -> Release Mouse; Context: GENERAL
+$PLAYER_STATISTICS                                   -> Player Statistics; Context: GENERAL
+$NEXT_CONTROLLER                                     -> Select next controller; Context: SHIP_BUILD_MODE
+$PREVIOUS_CONTROLLER                                 -> Select prev controller; Context: SHIP_BUILD_MODE
+$SELECT_CORE                                         -> Select core; Context: SHIP_BUILD_MODE
+$BUILD_MODE_FIX_CAM                                  -> Advanced Build Mode; Context: SHIP_BUILD_MODE
+$ALIGN_SHIP                                          -> Align Ship Cam; Context: SHIP_FLIGHT_MODE
+$CANCEL_SHIP                                         -> Cancel Ship Movement; Context: SHIP_FLIGHT_MODE
+$SCREENSHOT_WITH_GUI                                 -> Screenshot (with GUI); Context: GENERAL
+$SCREENSHOT_WITHOUT_GUI                              -> Screenshot (without GUI); Context: GENERAL
+$FACTION_MENU                                        -> Open Faction Menu; Context: GENERAL
+$MAP_PANEL                                           -> Map; Context: GENERAL
+$CUBATOM_PANEL                                       -> Cubatom Menu; Context: GENERAL
+$STRUCTURE_PANEL                                     -> Structure Menu; Context: GENERAL
+$LEADERBOARD                                         -> Show leaderboard; Context: GENERAL
